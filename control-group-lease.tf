@@ -9,7 +9,7 @@ resource "vault_generic_endpoint" "control-goup-lease" {
   path      = "/sys/config/control-group"
     data_json = <<EOT
     {
-    "max_ttl": "3d"
+    "max_ttl": "68h"
     }
     EOT
 }
